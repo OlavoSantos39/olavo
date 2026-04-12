@@ -45,6 +45,7 @@
   /* Responsividade */
   @media (max-width: 480px) {
     .socials {
+      align-items: center;
       flex-direction: column;
       gap: 10px;
     }

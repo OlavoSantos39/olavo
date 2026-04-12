@@ -45,6 +45,7 @@
     }
 
     .menu-toggle {
+      align-items: center;
       display: none;
       flex-direction: column;
       cursor: pointer;
