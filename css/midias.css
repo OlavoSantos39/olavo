@@ -1,0 +1,43 @@
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  #midias-sociais .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .content h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  #midias-sociais {
+    padding: 20px 10px;
+  }
+
+  .content h1 {
+    font-size: 1.4rem;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-icons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-video video {
+    max-width: 100%;
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
