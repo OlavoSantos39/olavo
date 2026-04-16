@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    margin-top: 50px;
     width: 70%;
     height: 70vh;
     background-color: #474764;
@@ -26,6 +27,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     opacity: 0.9;
+    border-radius: 20px;
 }
 
 .content-video {
@@ -135,6 +137,7 @@ body {
 /* Responsividade para tablets */
 @media (max-width: 768px) {
     .container {
+        margin-top: 25px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -160,7 +163,11 @@ body {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
     section {
-        padding: 20px 10px;
+        padding:20px 10px;
+    }
+
+    .container {
+        margin-top: 25px;
     }
 
     .content {
